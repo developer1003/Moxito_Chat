@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterVC" customModule="MoxitoChat" customModuleProvider="target">
+            <connections>
+                <outlet property="PasswordTF" destination="sJf-oF-Ldv" id="6TW-Ck-c6B"/>
+                <outlet property="emailTF" destination="TjR-8K-nP8" id="QrU-Yt-3Sm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1b-Ws-aqP" userLabel="PasswordView">
+                    <rect key="frame" x="0.0" y="136" width="393" height="177"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7b-YZ-Esb">
+                            <rect key="frame" x="0.0" y="126" width="393" height="51"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <state key="normal" title="Register">
+                                <color key="titleColor" name="BrandBlue"/>
+                            </state>
+                            <connections>
+                                <action selector="registerBtnPressed:" destination="-1" eventType="touchUpInside" id="nN0-zK-3pi"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="9uW-4G-mOe">
+                            <rect key="frame" x="0.0" y="20" width="393" height="137"/>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJf-oF-Ldv">
+                            <rect key="frame" x="49" y="50" width="296" height="45"/>
+                            <color key="textColor" name="BrandBlue"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="h7b-YZ-Esb" firstAttribute="top" secondItem="sJf-oF-Ldv" secondAttribute="bottom" constant="31" id="33h-6v-kd2"/>
+                        <constraint firstAttribute="right" secondItem="sJf-oF-Ldv" secondAttribute="right" constant="48" id="8xa-B8-PVg"/>
+                        <constraint firstItem="sJf-oF-Ldv" firstAttribute="top" secondItem="C1b-Ws-aqP" secondAttribute="top" constant="50" id="CuB-fv-5ji"/>
+                        <constraint firstAttribute="height" constant="177" id="H29-9C-oHo"/>
+                        <constraint firstAttribute="bottom" secondItem="sJf-oF-Ldv" secondAttribute="bottom" constant="82" id="Mp4-Pz-psK"/>
+                        <constraint firstItem="h7b-YZ-Esb" firstAttribute="leading" secondItem="C1b-Ws-aqP" secondAttribute="leading" id="Qyv-kJ-iit"/>
+                        <constraint firstItem="9uW-4G-mOe" firstAttribute="top" secondItem="C1b-Ws-aqP" secondAttribute="top" constant="20" id="UiF-it-TG5"/>
+                        <constraint firstAttribute="bottom" secondItem="9uW-4G-mOe" secondAttribute="bottom" constant="20" id="XWa-M9-HYT"/>
+                        <constraint firstAttribute="bottom" secondItem="h7b-YZ-Esb" secondAttribute="bottom" id="ajN-3V-U2D"/>
+                        <constraint firstItem="9uW-4G-mOe" firstAttribute="leading" secondItem="C1b-Ws-aqP" secondAttribute="leading" id="dSW-kM-nM8"/>
+                        <constraint firstAttribute="trailing" secondItem="9uW-4G-mOe" secondAttribute="trailing" id="eyB-Th-rEA"/>
+                        <constraint firstAttribute="trailing" secondItem="h7b-YZ-Esb" secondAttribute="trailing" id="h3w-nQ-JBP"/>
+                        <constraint firstItem="sJf-oF-Ldv" firstAttribute="left" secondItem="C1b-Ws-aqP" secondAttribute="left" constant="49" id="pA2-pN-niA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWy-3W-vrB" userLabel="EmailView">
+                    <rect key="frame" x="0.0" y="59" width="393" height="177"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="8TX-gj-RZn">
+                            <rect key="frame" x="0.0" y="20" width="393" height="137"/>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TjR-8K-nP8">
+                            <rect key="frame" x="48" y="50" width="297" height="45"/>
+                            <color key="textColor" name="BrandBlue"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="TjR-8K-nP8" firstAttribute="top" secondItem="IWy-3W-vrB" secondAttribute="top" constant="50" id="62Z-Jh-6SL"/>
+                        <constraint firstAttribute="bottom" secondItem="8TX-gj-RZn" secondAttribute="bottom" constant="20" id="JPe-ZC-kcq"/>
+                        <constraint firstAttribute="bottom" secondItem="TjR-8K-nP8" secondAttribute="bottom" constant="82" id="KnB-sm-CpR"/>
+                        <constraint firstAttribute="trailing" secondItem="8TX-gj-RZn" secondAttribute="trailing" id="MRo-sa-m44"/>
+                        <constraint firstItem="TjR-8K-nP8" firstAttribute="left" secondItem="IWy-3W-vrB" secondAttribute="left" constant="48" id="Ml9-vt-ARy"/>
+                        <constraint firstAttribute="right" secondItem="TjR-8K-nP8" secondAttribute="right" constant="48" id="Qqg-QP-rir"/>
+                        <constraint firstItem="8TX-gj-RZn" firstAttribute="leading" secondItem="IWy-3W-vrB" secondAttribute="leading" id="ayd-zr-J7T"/>
+                        <constraint firstAttribute="height" constant="177" id="dKQ-lE-jiN"/>
+                        <constraint firstItem="8TX-gj-RZn" firstAttribute="top" secondItem="IWy-3W-vrB" secondAttribute="top" constant="20" id="iAD-iX-bQq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BrandLightBlue"/>
+            <constraints>
+                <constraint firstItem="IWy-3W-vrB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="0J3-ab-tPl"/>
+                <constraint firstItem="IWy-3W-vrB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2vb-Cr-IPx"/>
+                <constraint firstItem="C1b-Ws-aqP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="axs-XL-9bn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="C1b-Ws-aqP" secondAttribute="trailing" id="pTX-9H-VNz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IWy-3W-vrB" secondAttribute="trailing" id="uKp-1Z-MNZ"/>
+                <constraint firstItem="C1b-Ws-aqP" firstAttribute="top" secondItem="IWy-3W-vrB" secondAttribute="bottom" constant="-100" id="xSy-Uu-icV"/>
+            </constraints>
+            <point key="canvasLocation" x="9.9236641221374047" y="38.732394366197184"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="textfield" width="298" height="93"/>
+        <namedColor name="BrandBlue">
+            <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandLightBlue">
+            <color red="0.92199999094009399" green="0.98000001907348633" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C07273829AAA2A600C783C2 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07273629AAA2A600C783C2 /* ChatVC.swift */; };
+		5C07273929AAA2A600C783C2 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C07273729AAA2A600C783C2 /* ChatVC.xib */; };
+		5C61756F29AB58DC00659D3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61756E29AB58DC00659D3E /* Constants.swift */; };
+		5C61757229AB5EA500659D3E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61757129AB5EA500659D3E /* Message.swift */; };
+		5C61757529AB5F2600659D3E /* MessageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61757329AB5F2600659D3E /* MessageTVC.swift */; };
+		5C61757629AB5F2600659D3E /* MessageTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C61757429AB5F2600659D3E /* MessageTVC.xib */; };
+		5CF52DC929AA2ACF00EC1679 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF52DC729AA2ACF00EC1679 /* RegisterVC.swift */; };
+		5CF52DCA29AA2ACF00EC1679 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CF52DC829AA2ACF00EC1679 /* RegisterVC.xib */; };
 		8D86D417294C79B900FA3008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86D416294C79B900FA3008 /* AppDelegate.swift */; };
-		8D86D419294C79B900FA3008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86D418294C79B900FA3008 /* SceneDelegate.swift */; };
-		8D86D41B294C79B900FA3008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86D41A294C79B900FA3008 /* ViewController.swift */; };
-		8D86D41E294C79B900FA3008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D41C294C79B900FA3008 /* Main.storyboard */; };
 		8D86D420294C79BB00FA3008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D41F294C79BB00FA3008 /* Assets.xcassets */; };
 		8D86D423294C79BB00FA3008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D421294C79BB00FA3008 /* LaunchScreen.storyboard */; };
+		8D86D42C294C7AE800FA3008 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86D42A294C7AE800FA3008 /* WelcomeVC.swift */; };
+		8D86D42D294C7AE800FA3008 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D42B294C7AE800FA3008 /* WelcomeVC.xib */; };
+		8D86D432294C7EB400FA3008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D431294C7EB400FA3008 /* GoogleService-Info.plist */; };
+		8D86D43B294C9E2500FA3008 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86D439294C9E2500FA3008 /* LoginVC.swift */; };
+		8D86D43C294C9E2500FA3008 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D86D43A294C9E2500FA3008 /* LoginVC.xib */; };
+		FB8787C518A4EAA912EE02B7 /* Pods_MoxitoChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2513F5F725B621FA26289F7F /* Pods_MoxitoChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2513F5F725B621FA26289F7F /* Pods_MoxitoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxitoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C07273629AAA2A600C783C2 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		5C07273729AAA2A600C783C2 /* ChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		5C61756E29AB58DC00659D3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5C61757129AB5EA500659D3E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5C61757329AB5F2600659D3E /* MessageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTVC.swift; sourceTree = "<group>"; };
+		5C61757429AB5F2600659D3E /* MessageTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTVC.xib; sourceTree = "<group>"; };
+		5CF52DC729AA2ACF00EC1679 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		5CF52DC829AA2ACF00EC1679 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		8D86D413294C79B900FA3008 /* MoxitoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoxitoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D86D416294C79B900FA3008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D86D418294C79B900FA3008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D86D41A294C79B900FA3008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D86D41D294C79B900FA3008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D86D41F294C79BB00FA3008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D86D422294C79BB00FA3008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D86D424294C79BB00FA3008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D86D42A294C7AE800FA3008 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		8D86D42B294C7AE800FA3008 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		8D86D431294C7EB400FA3008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D86D439294C9E2500FA3008 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8D86D43A294C9E2500FA3008 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		A6BBAF81F6B98B21172AF7DF /* Pods-MoxitoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxitoChat.debug.xcconfig"; path = "Target Support Files/Pods-MoxitoChat/Pods-MoxitoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA01C7F2BB5273D8A5B4F7C /* Pods-MoxitoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxitoChat.release.xcconfig"; path = "Target Support Files/Pods-MoxitoChat/Pods-MoxitoChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8787C518A4EAA912EE02B7 /* Pods_MoxitoChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360F506B462C9FDFB3F654F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBAF81F6B98B21172AF7DF /* Pods-MoxitoChat.debug.xcconfig */,
+				AEA01C7F2BB5273D8A5B4F7C /* Pods-MoxitoChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39C41ED0A8D12D8AE0E9A1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2513F5F725B621FA26289F7F /* Pods_MoxitoChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C61756D29AB58C700659D3E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C61756E29AB58DC00659D3E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5C61757029AB5E8300659D3E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		8D86D40A294C79B900FA3008 = {
 			isa = PBXGroup;
 			children = (
 				8D86D415294C79B900FA3008 /* MoxitoChat */,
 				8D86D414294C79B900FA3008 /* Products */,
+				360F506B462C9FDFB3F654F4 /* Pods */,
+				39C41ED0A8D12D8AE0E9A1F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +115,50 @@
 		8D86D415294C79B900FA3008 /* MoxitoChat */ = {
 			isa = PBXGroup;
 			children = (
-				8D86D416294C79B900FA3008 /* AppDelegate.swift */,
-				8D86D418294C79B900FA3008 /* SceneDelegate.swift */,
-				8D86D41A294C79B900FA3008 /* ViewController.swift */,
-				8D86D41C294C79B900FA3008 /* Main.storyboard */,
+				5C61757029AB5E8300659D3E /* New Group */,
+				5C61756D29AB58C700659D3E /* Helpers */,
+				8D86D42E294C7AF000FA3008 /* Controllers */,
+				8D86D42F294C7B0800FA3008 /* View */,
+				8D86D430294C7B2100FA3008 /* Model */,
 				8D86D41F294C79BB00FA3008 /* Assets.xcassets */,
+				8D86D416294C79B900FA3008 /* AppDelegate.swift */,
 				8D86D421294C79BB00FA3008 /* LaunchScreen.storyboard */,
 				8D86D424294C79BB00FA3008 /* Info.plist */,
+				8D86D431294C7EB400FA3008 /* GoogleService-Info.plist */,
 			);
 			path = MoxitoChat;
+			sourceTree = "<group>";
+		};
+		8D86D42E294C7AF000FA3008 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D86D42A294C7AE800FA3008 /* WelcomeVC.swift */,
+				5CF52DC729AA2ACF00EC1679 /* RegisterVC.swift */,
+				8D86D439294C9E2500FA3008 /* LoginVC.swift */,
+				5C07273629AAA2A600C783C2 /* ChatVC.swift */,
+				5C61757329AB5F2600659D3E /* MessageTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D86D42F294C7B0800FA3008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D86D42B294C7AE800FA3008 /* WelcomeVC.xib */,
+				5CF52DC829AA2ACF00EC1679 /* RegisterVC.xib */,
+				8D86D43A294C9E2500FA3008 /* LoginVC.xib */,
+				5C07273729AAA2A600C783C2 /* ChatVC.xib */,
+				5C61757429AB5F2600659D3E /* MessageTVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D86D430294C7B2100FA3008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C61757129AB5EA500659D3E /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D86D427294C79BB00FA3008 /* Build configuration list for PBXNativeTarget "MoxitoChat" */;
 			buildPhases = (
+				9A63CE4C6FC99EF93FF86F2F /* [CP] Check Pods Manifest.lock */,
 				8D86D40F294C79B900FA3008 /* Sources */,
 				8D86D410294C79B900FA3008 /* Frameworks */,
 				8D86D411294C79B900FA3008 /* Resources */,
+				11E26B8D37A3A2C1C7E9C220 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 8D86D40A294C79B900FA3008;
+			packageReferences = (
+				8D86D433294C930C00FA3008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8D86D414294C79B900FA3008 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +224,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D86D43C294C9E2500FA3008 /* LoginVC.xib in Resources */,
+				5C61757629AB5F2600659D3E /* MessageTVC.xib in Resources */,
 				8D86D423294C79BB00FA3008 /* LaunchScreen.storyboard in Resources */,
+				5C07273929AAA2A600C783C2 /* ChatVC.xib in Resources */,
+				8D86D42D294C7AE800FA3008 /* WelcomeVC.xib in Resources */,
+				5CF52DCA29AA2ACF00EC1679 /* RegisterVC.xib in Resources */,
 				8D86D420294C79BB00FA3008 /* Assets.xcassets in Resources */,
-				8D86D41E294C79B900FA3008 /* Main.storyboard in Resources */,
+				8D86D432294C7EB400FA3008 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11E26B8D37A3A2C1C7E9C220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoxitoChat/Pods-MoxitoChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoxitoChat/Pods-MoxitoChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoxitoChat/Pods-MoxitoChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A63CE4C6FC99EF93FF86F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoxitoChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D86D40F294C79B900FA3008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D86D41B294C79B900FA3008 /* ViewController.swift in Sources */,
 				8D86D417294C79B900FA3008 /* AppDelegate.swift in Sources */,
-				8D86D419294C79B900FA3008 /* SceneDelegate.swift in Sources */,
+				5CF52DC929AA2ACF00EC1679 /* RegisterVC.swift in Sources */,
+				8D86D43B294C9E2500FA3008 /* LoginVC.swift in Sources */,
+				8D86D42C294C7AE800FA3008 /* WelcomeVC.swift in Sources */,
+				5C07273829AAA2A600C783C2 /* ChatVC.swift in Sources */,
+				5C61757529AB5F2600659D3E /* MessageTVC.swift in Sources */,
+				5C61756F29AB58DC00659D3E /* Constants.swift in Sources */,
+				5C61757229AB5EA500659D3E /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D86D41C294C79B900FA3008 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D86D41D294C79B900FA3008 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D86D421294C79BB00FA3008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +425,7 @@
 		};
 		8D86D428294C79BB00FA3008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BBAF81F6B98B21172AF7DF /* Pods-MoxitoChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +436,6 @@
 				INFOPLIST_FILE = MoxitoChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +453,7 @@
 		};
 		8D86D429294C79BB00FA3008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA01C7F2BB5273D8A5B4F7C /* Pods-MoxitoChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +464,6 @@
 				INFOPLIST_FILE = MoxitoChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +501,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D86D433294C930C00FA3008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 8D86D40B294C79B900FA3008 /* Project object */;
 }
